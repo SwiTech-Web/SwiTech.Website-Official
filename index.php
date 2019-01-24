@@ -3,6 +3,7 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html>
+<html lang="fr">
 <title>Switech Digital Agency | Paris</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -173,15 +174,15 @@ body, html {
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
 		<right>
 				<span class="fa-stack fa-lg">
-				<a href="https://www.linkedin.com/company/switech-digital-agency-paris/" target="_blank"style="color: #ffff;">
-				<i class="fa fa-circle-thin fa-stack-2x"style="color: #ffff;"></i>
-				<i class="fa fa-linkedin fa-stack-1x"style="color: #ffff;"></i>
+				<a href="https://www.linkedin.com/company/switech-digital-agency-paris/" target="_blank" style="color: #ffff;">
+				<i class="fa fa-circle-thin fa-stack-2x" style="color: #ffff;"></i>
+				<i class="fa fa-linkedin fa-stack-1x" style="color: #ffff;"></i>
 				</a>
 		</right>
 		&nbsp;
 				<span class="fa-stack fa-lg">
-				<a href="https://www.instagram.com/switechagency/" target="_blank"style="color: #ffff;">
-				<i class="fa fa-circle-thin fa-stack-2x"style="color: #ffff;"></i>
+				<a href="https://www.instagram.com/switechagency/" target="_blank" style="color: #ffff;">
+				<i class="fa fa-circle-thin fa-stack-2x" style="color: #ffff;"></i>
 				<i class="fa fa-instagram fa-stack-1x"></i>
 				</a>
 				</span>
@@ -561,8 +562,8 @@ body, html {
     <div class="max"></div>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                <div class="blc"> <h3 class="title"style="color: #ffff;"> <strong>L'agence</h3></strong>
-                    <div class="entry-content"style="color: #DCCCD2;">
+                <div class="blc"> <h3 class="title" style="color: #ffff;"> <strong>L'agence</h3></strong>
+                    <div class="entry-content" style="color: #DCCCD2;">
                         <p>Nous créons des sites internet en prenant en compte dès la conception les objectifs de visibilité sur Google. Nous assurons aussi le référencement de sites déjà en ligne.</p>
                     </div>
                 </div>
@@ -577,7 +578,7 @@ body, html {
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                 <div class="blc"> <h3 class="title" style="color: #ffff;"><strong>Nous contacter</h3></strong>
-                    <div class="entry-content"style="color: #DCCCD2;">
+                    <div class="entry-content" style="color: #DCCCD2;">
 												<p>Switech Digital Agency</br> 9 rue Macheret </br> Lagny Sur Marne</br>
                         <span style="color: #DCCCD2;">
                         <strong>06 42 46 52 23</strong>
@@ -589,7 +590,7 @@ body, html {
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                 <div class="blc">
-                  	<div class="blc">  <h3 class="title"style="color: #ffff;"><strong>Ne manquez pas !</h3></strong>
+                  	<div class="blc">  <h3 class="title" style="color: #ffff;"><strong>Ne manquez pas !</h3></strong>
                         <ul id="menu-footer-col-4" class="nav-col col_4">
                             <li id="menu-item-617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-617"style="color: #3E96D6;"><a href="https://www.switech.fr/referencement-seo/"style="color: #3E96D6;">Le référencement SEO.</a></li>
                             <li id="menu-item-618" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-618"style="color: #3E96D6;"><a href="https://www.switech.fr/creation-seo/"style="color: #3E96D6;">Etre visible sur google au lancement de son site web</a></li>
@@ -608,15 +609,15 @@ body, html {
            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_nav align-self-end">
             <right>
                 <span class="fa-stack fa-lg">
-                <a href="https://www.linkedin.com/company/switech-digital-agency-paris/" target="_blank"style="color: #ffff;">
-                <i class="fa fa-circle-thin fa-stack-2x"style="color: #ffff;"></i>
-                <i class="fa fa-linkedin fa-stack-1x"style="color: #ffff;"></i>
+                <a href="https://www.linkedin.com/company/switech-digital-agency-paris/" target="_blank" style="color: #ffff;">
+                <i class="fa fa-circle-thin fa-stack-2x" style="color: #ffff;"></i>
+                <i class="fa fa-linkedin fa-stack-1x" style="color: #ffff;"></i>
                 </a>
             </right>
             &nbsp;
                 <span class="fa-stack fa-lg">
                 <a href="https://www.instagram.com/switechagency/" target="_blank"style="color: #ffff;">
-                <i class="fa fa-circle-thin fa-stack-2x"style="color: #ffff;"></i>
+                <i class="fa fa-circle-thin fa-stack-2x" style="color: #ffff;"></i>
                 <i class="fa fa-instagram fa-stack-1x"></i>
                 </a>
                 </span>
