@@ -171,14 +171,26 @@ body, html {
     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Lancez-vous maintenant</a></p>
   </div>
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+		<right>
+				<span class="fa-stack fa-lg">
+				<a href="https://www.linkedin.com/company/switech-digital-agency-paris/" target="_blank"style="color: #ffff;">
+				<i class="fa fa-circle-thin fa-stack-2x"style="color: #ffff;"></i>
+				<i class="fa fa-linkedin fa-stack-1x"style="color: #ffff;"></i>
+				</a>
+		</right>
+		&nbsp;
+				<span class="fa-stack fa-lg">
+				<a href="https://www.instagram.com/switechagency/" target="_blank"style="color: #ffff;">
+				<i class="fa fa-circle-thin fa-stack-2x"style="color: #ffff;"></i>
+				<i class="fa fa-instagram fa-stack-1x"></i>
+				</a>
+				</span>
   </div>
 </header>
 
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">À PROPOS DE NOTRE SOCIÉTÉ</h3>
+  <h2 class="w3-center">À PROPOS DE NOTRE SOCIÉTÉ</h2>
   <p class="w3-center w3-large">Nos Mots d'ordres</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
@@ -473,7 +485,7 @@ body, html {
     <div class="w3-third w3-section">
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-black w3-xlarge w3-padding-32">Standard</li>
-        <li class="w3-padding-16"><b>Package Site Vitrine professionnel / Portfolio / Blog + Référencement </b></li>
+        <li class="w3-padding-16"><b>Package Site Vitrine professionnel / Portfolio / Blog + Référencement + Formation Réseaux Sociaux</b></li>
         <li class="w3-padding-16"><b>10</b> Emails + Comptes Réseau Sociaux</li>
         <li class="w3-padding-16"><b>1</b>Nom de domaine </li>
         <li class="w3-padding-16"><b>24h/24</b> Support</li>
@@ -488,8 +500,8 @@ body, html {
     <div class="w3-third">
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-red w3-xlarge w3-padding-48">Pro</li>
-        <li class="w3-padding-16"><b>Site professionnel / Applications Mobiles</b></li>
-        <li class="w3-padding-16"><b>50</b> Emails</li>
+        <li class="w3-padding-16"><b>Site professionnel + Référencement + Animation des Réseaux Sociaux / Applications Mobiles</b></li>
+        <li class="w3-padding-16"><b>100</b> Emails + Comptes Réseaux Sociaux</li>
         <li class="w3-padding-16"><b>1</b>Nom de domaine(plusieurs sous domaines possibles)</li>
         <li class="w3-padding-16"><b>24h/24</b> Support</li>
         <li class="w3-padding-16">
@@ -532,11 +544,7 @@ body, html {
       <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-black" type="submit">
-          <i class="fa fa-paper-plane"></i> Envoyer Message
-        </button>
-      </p>
+      <p><button class="w3-button w3-black" type="submit"><i class="fa fa-paper-plane"></i> Envoyer Message</button></p>
     </form>
 		<!-- Image of location/map -->
     <left>
@@ -582,13 +590,8 @@ body, html {
 												<p>Switech Digital Agency</br> 9 rue Macheret </br> Lagny Sur Marne</br>
                         <span style="color: #DCCCD2;">
                         <strong>06 42 46 52 23</strong>
-
                         </p>
-<<<<<<< HEAD
-                        <p>SARL au capital de 1000€</br> Siren: 00000000000000</p>
-=======
-                        <p>SARL au capital de 1000€</br></p>
->>>>>>> c099f5a31e6ff982a36127fbb5c4acd0cd5fd770
+                        <p>SAS au capital de 1000€</br> Siren: En cours d'immatriculation</p>
                         </span>
                     </div>
                 </div>
@@ -611,7 +614,7 @@ body, html {
                 <a href="https://www.switech.fr" class="logo" title="Home"> <img src="img/Logoswitech2.png" height="43" width="210" alt="switech.fr" class="disp_ib img-responsive" /> </a>
                 <span class="txt">© Switech Digital Agency. Tous droits réservés.</span>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_nav align-self-end">
+           <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_nav align-self-end">
             <right>
                 <span class="fa-stack fa-lg">
                 <a href="https://www.linkedin.com/company/switech-digital-agency-paris/" target="_blank"style="color: #ffff;">
@@ -628,7 +631,7 @@ body, html {
                 </span>
 								<br>
 								</br>
-								<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="fr_FR" data-type="horizontal" data-theme="dark" data-vanity="switech-digital-agency-78a09617a"><a class="LI-simple-link" href='https://fr.linkedin.com/in/switech-digital-agency-78a09617a?trk=profile-badge'>Switech Digital Agency</a></div>
+								<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="fr_FR" data-type="horizontal" data-theme="dark" data-vanity="switech-digital-agency"><a class="LI-simple-link" href='https://fr.linkedin.com/in/switech-digital-agency-78a09617a?trk=profile-badge'>Switech Digital Agency</a></div>
 								<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
             </div>
         </div>
