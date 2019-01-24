@@ -6,7 +6,7 @@ session_start();
 <title>Switech Digital Agency | Paris</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="img/ico.png" type="image/png" sizes="16x16">
+<link rel="icon" href="img/ico.jpeg" type="image/jpeg" sizes="16x16">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -227,10 +227,10 @@ body, html {
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="img/Mika-folio.png" class="fh5co-card-item image-popup">
+					<a href="img/Mika-folio.jpeg" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="img/Mika-folio.png" alt="Portfolio du sportif Mickael Gomes" class="img-responsive">
+							<img src="img/Mika-folio.jpeg" alt="Portfolio du sportif Mickael Gomes" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Portfolio</h2>
@@ -240,10 +240,10 @@ body, html {
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="img/ormesson.png" class="fh5co-card-item image-popup">
+					<a href="img/ormesson.jpeg" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="img/ormesson.png" alt="Conception du site web de la marque Ormesson" class="img-responsive">
+							<img src="img/ormesson.jpeg" alt="Conception du site web de la marque Ormesson" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Ormesson Paris</h2>
@@ -253,10 +253,10 @@ body, html {
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="img/reixtravel.png" class="fh5co-card-item image-popup">
+					<a href="img/reixtravel.jpeg" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="img/reixtravel.png" alt="Création du site web pour l'agence Reix Voyage" class="img-responsive">
+							<img src="img/reixtravel.jpeg" alt="Création du site web pour l'agence Reix Voyage" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Agence Reix Voyage</h2>
@@ -266,10 +266,10 @@ body, html {
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="img/pourozoir.png" class="fh5co-card-item image-popup">
+					<a href="img/pourozoir.jpeg" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="img/pourozoir.png" alt="Conception du site web Pour Ozoir" class="img-responsive">
+							<img src="img/pourozoir.jpeg" alt="Conception du site web Pour Ozoir" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Association "Pour Ozoir"</h2>
@@ -280,10 +280,10 @@ body, html {
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="img/vienneycorporation.png" class="fh5co-card-item image-popup">
+					<a href="img/vienneycorporation.jpeg" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="img/vienneycorporation.png" alt="Création du site web pour l'entreprise Vienney Corporation" class="img-responsive">
+							<img src="img/vienneycorporation.jpeg" alt="Création du site web pour l'entreprise Vienney Corporation" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Entreprise Vienney Corporation</h2>
@@ -294,10 +294,10 @@ body, html {
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-6">
-					<a href="img/travelreix.png" class="fh5co-card-item image-popup">
+					<a href="img/travelreix.jpeg" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="img/travelreix.png" alt="Création du site web de l'agence Reix Travel" class="img-responsive">
+							<img src="img/travelreix.jpeg" alt="Création du site web de l'agence Reix Travel" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Site de l'agence Reix Travel</h2>
@@ -317,7 +317,7 @@ body, html {
   <div class="w3-row-padding " style="margin-top:64px">
 		<div class="w3-col l3 m6 w3-margin-bottom">
 			<div class="w3-card">
-				<img src="img/theo_rond.png" alt="Theo" style="width:100%">
+				<img src="img/theo_rond.jpeg" alt="Theo" style="width:100%">
 				<div class="w3-container">
 					<h3>Théo De Nanassy</h3>
 					<p class="w3-opacity">Développeur</p>
@@ -328,7 +328,7 @@ body, html {
 		</div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="img/Ilan_rond2.png" alt="Ilan" style="width:100%">
+        <img src="img/Ilan_rond2.jpeg" alt="Ilan" style="width:100%">
         <div class="w3-container">
           <h3>Ilan BENAYOUN</h3>
           <p class="w3-opacity">CEO & Founder</p>
@@ -339,7 +339,7 @@ body, html {
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="img/jordan_rond2.png" alt="Jordan" style="width:100%">
+        <img src="img/jordan_rond2.jpeg" alt="Jordan" style="width:100%">
         <div class="w3-container">
           <h3>Jordan LAURENT</h3>
           <p class="w3-opacity">Co-Founder</p>
@@ -389,7 +389,7 @@ body, html {
     </div>
 		<div class="w3-col l3 m6 w3-margin-bottom">
 			<div class="w3-card">
-				<img src="img/joa.png" alt="Johanna" style="width:100%">
+				<img src="img/joa.jpeg" alt="Johanna" style="width:100%">
 				<div class="w3-container">
 					<h3>Johanna GUERY</h3>
 					<p class="w3-opacity">Community Manager</p>
@@ -582,12 +582,7 @@ body, html {
                         <span style="color: #DCCCD2;">
                         <strong>06 42 46 52 23</strong>
                         </p>
-<<<<<<< HEAD
-                        <p>SARL au capital de 1000€</br> Siren: 00000000000000</p>
-                        <p>SARL au capital de 1000€</br></p>
-=======
                         <p>SAS au capital de 1000€</br> Siren: En cours d'immatriculation</p>
->>>>>>> 342db0a1623e4d9a222e9fc178273dbfafe4311f
                         </span>
                     </div>
                 </div>
@@ -607,7 +602,7 @@ body, html {
 <div class="copyright">
     <div class="row justify-content-between">
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_logo order-last order-sm-last order-lg-first align-self-end">
-                <a href="https://www.switech.fr" class="logo" title="Accueil Switech"> <img src="img/Logoswitech2.png" height="43" width="210" alt="switech.fr" class="disp_ib img-responsive" /> </a>
+                <a href="https://www.switech.fr" class="logo" title="Accueil Switech"> <img src="img/Logoswitech2.jpeg" height="43" width="210" alt="switech.fr" class="disp_ib img-responsive" /> </a>
                 <span class="txt">© Switech Digital Agency. Tous droits réservés.</span>
             </div>
            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_nav align-self-end">
