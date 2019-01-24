@@ -304,6 +304,15 @@ body, html {
   <p class="w3-center w3-large">Le coeur de notre société</p>
   <div class="w3-row-padding " style="margin-top:64px">
 		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-card">
+				<img src="img/theo_rond.png" alt="Theo" style="width:100%">
+				<div class="w3-container">
+					<h3>Théo De Nanassy</h3>
+					<p class="w3-opacity">Développeur</p>
+					<p>Théo De Nanassy, Ingénieur Expert Epitech 5éme année Switech</p>
+					<center><p><button class="w3-button w3-light-grey w3-block" onclick="openForm()"><i class="fa fa-envelope"></i> Contact</button></p></center>
+				</div>
+			</div>
 		</div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
@@ -366,6 +375,17 @@ body, html {
         </div>
       </div>
     </div>
+		<div class="w3-col l3 m6 w3-margin-bottom">
+			<div class="w3-card">
+				<img src="img/idk_rond.png" alt="Johanna" style="width:100%">
+				<div class="w3-container">
+					<h3>Johanna GUERY</h3>
+					<p class="w3-opacity">Community Manager</p>
+					<p>Johanna GUERY, Community Manager</br>Switech</p>
+					<center><p><button class="w3-button w3-light-grey w3-block" onclick="openForm()"><i class="fa fa-envelope"></i> Contact</button></p></center>
+				</div>
+			</div>
+		</div>
   </div>
 </div>
 
@@ -561,10 +581,10 @@ body, html {
                     <div class="entry-content"style="color: #DCCCD2;">
 												<p>Switech Digital Agency</br> 9 rue Macheret </br> Lagny Sur Marne</br>
                         <span style="color: #DCCCD2;">
-                        <strong>01 30 38 90 80</strong>
+                        <strong>06 42 46 52 23</strong>
 
                         </p>
-                        <p>SARL au capital de 1000€</br> Siren: 47847735900028</p>
+                        <p>SARL au capital de 1000€</br> Siren: 00000000000000</p>
                         </span>
                     </div>
                 </div>
@@ -584,7 +604,7 @@ body, html {
 <div class="copyright">
     <div class="row justify-content-between">
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_logo order-last order-sm-last order-lg-first align-self-end">
-                <a href="https://www.switech.fr" class="logo" title="Home"> <img src="img/Logoswitech.png" height="43" width="210" alt="switech.fr" class="disp_ib img-responsive" /> </a>
+                <a href="https://www.switech.fr" class="logo" title="Home"> <img src="img/Logoswitech2.png" height="43" width="210" alt="switech.fr" class="disp_ib img-responsive" /> </a>
                 <span class="txt">© Switech Digital Agency. Tous droits réservés.</span>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_nav align-self-end">
