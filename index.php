@@ -407,13 +407,13 @@ body, html {
       <p>Voici la liste de nos compétences, et des missions que nous pouvons accomplir ensemble.</p>
 			<br>
 			<ul style="list-style-type:circle">
-  			<li>Création/Refonte de votre site web</li>
-				<li>Création d'applications mobiles</li>
-				<li>Gestion de projet numériques</li>
-				<li>Effectuer le référencement SEO/SEA de votre site web</li>
-				<li>Community Management avec vos réseaux sociaux associés</li>
-  			<li>Marketing D'influence avec notre réseau d'influenceurs</li>
-  			<li>Création graphique, rédaction de votre charte graphique</li>
+  			<li style="color: #3E96D6;">Création/Refonte de votre site web</li>
+				<li style="color: #3E96D6;">Création d'applications mobiles</li>
+				<li style="color: #3E96D6;">Gestion de projet numériques</li>
+				<li style="color: #3E96D6;">Effectuer le référencement SEO/SEA de votre site web</li>
+				<li style="color: #3E96D6;">Community Management avec vos réseaux sociaux associés</li>
+  			<li style="color: #3E96D6;">Marketing D'influence avec notre réseau d'influenceurs</li>
+  			<li style="color: #3E96D6;">Création graphique, rédaction de votre charte graphique</li>
 			</ul>
     </div>
     <div class="w3-col m6">
@@ -431,11 +431,11 @@ body, html {
       </div>
       <p class="w3-wide"><i class="fa fa-instagram w3-margin-right"></i>Community Management</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
       </div>
       <p class="w3-wide"><i class="fa fa-google w3-margin-right"></i>Référencement SEO/SEA</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
       </div>
 			<p class="w3-wide"><i class="fa fa-users w3-margin-right"></i>Marketing d'Influence</p>
       <div class="w3-grey">
@@ -453,13 +453,12 @@ body, html {
     <div class="w3-third w3-section">
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-black w3-xlarge w3-padding-32">Standard</li>
-        <li class="w3-padding-16"><b>10GB</b> de Stockage</li>
-        <li class="w3-padding-16"><b>10</b> Emails</li>
+        <li class="w3-padding-16"><b>Package Site Vitrine professionnel / Portfolio / Blog + Référencement </b></li>
+        <li class="w3-padding-16"><b>10</b> Emails + Comptes Réseau Sociaux</li>
         <li class="w3-padding-16"><b>1</b>Nom de domaine </li>
         <li class="w3-padding-16"><b>24h/24</b> Support</li>
         <li class="w3-padding-16">
-          <h2 class="w3-wide">700€</h2>
-          <span class="w3-opacity">pour un site vitrine</span>
+          <h3 class="w3-opacity">Nous contacter pour plus d'informations</h3>
         </li>
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-black w3-padding-large">Sélectionner</button>
@@ -469,13 +468,12 @@ body, html {
     <div class="w3-third">
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-red w3-xlarge w3-padding-48">Pro</li>
-        <li class="w3-padding-16"><b>25GB</b> de Stockage</li>
+        <li class="w3-padding-16"><b>Site professionnel / Applications Mobiles</b></li>
         <li class="w3-padding-16"><b>50</b> Emails</li>
         <li class="w3-padding-16"><b>1</b>Nom de domaine(plusieurs sous domaines possibles)</li>
         <li class="w3-padding-16"><b>24h/24</b> Support</li>
         <li class="w3-padding-16">
-          <h2 class="w3-wide">1500€</h2>
-          <span class="w3-opacity">Site Web sur mesure</span>
+          <h3 class="w3-opacity">Nous contacter pour plus d'informations</h3>
         </li>
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-black w3-padding-large">Sélectionner</button>
@@ -484,14 +482,13 @@ body, html {
     </div>
     <div class="w3-third w3-section">
       <ul class="w3-ul w3-white w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
-        <li class="w3-padding-16"><b>100GB</b>de Stockage</li>
-        <li class="w3-padding-16"><b>100</b> Emails</li>
+        <li class="w3-black w3-xlarge w3-padding-32">Expert</li>
+        <li class="w3-padding-16"><b>Package Site professionnel + Référencement + Marketing / Applications Mobiles + Marketing</b></li>
+        <li class="w3-padding-16"><b>100</b> Emails + Comptes Réseaux Sociaux</li>
         <li class="w3-padding-16"><b>1</b>Nom de domaine(plusieurs sous domaines possibles)</li>
         <li class="w3-padding-16"><b>24h/24</b> Support</li>
         <li class="w3-padding-16">
-          <h2 class="w3-wide">3000€</h2>
-          <span class="w3-opacity">Projets sur mesure</span>
+          <h3 class="w3-opacity">Nous contacter pour plus d'informations</h3>
         </li>
         <li class="w3-light-grey w3-padding-24">
           <button class="w3-button w3-black w3-padding-large">Sélectionner</button>
@@ -521,9 +518,20 @@ body, html {
         </button>
       </p>
     </form>
-    <!-- Image of location/map -->
-    <center>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10497.18741125175!2d2.69573574674044!3d48.87161728240737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61b14fa1e3b81%3A0x40b82c3688c5720!2s77400+Lagny-sur-Marne!5e0!3m2!1sen!2sfr!4v1548179686125" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>    </center>
+		<!-- Image of location/map -->
+    <left>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10497.18741125175!2d2.69573574674044!3d48.87161728240737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61b14fa1e3b81%3A0x40b82c3688c5720!2s77400+Lagny-sur-Marne!5e0!3m2!1sen!2sfr!4v1548179686125" width="500" height="725" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</left>
+
+		<!-- InstaWidget -->
+		<right>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="https://instawidget.net/v/user/switechagency" id="link-b5481776805282db148ad7209678d9fe2a8f9863a4d018033479af8adf2d0d70">@switechagency</a>
+			<script src="https://instawidget.net/js/instawidget.js?u=b5481776805282db148ad7209678d9fe2a8f9863a4d018033479af8adf2d0d70&width=500px"></script>
+		</right>
   </div>
 </div>
 
@@ -534,14 +542,14 @@ body, html {
     <div class="max"></div>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                <div class="blc"> <span class="title"style="color: #ffff;"> <strong>L'agence</span></strong>
+                <div class="blc"> <h3 class="title"style="color: #ffff;"> <strong>L'agence</h3></strong>
                     <div class="entry-content"style="color: #DCCCD2;">
                         <p>Nous créons des sites internets en prenant en compte dès la conception les objectifs de visibilité sur Google. Nous assurons aussi le référencement de sites déjà en ligne.</p>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                <div class="blc"> <span class="title" style="color: #ffff;"><strong>Nos services</span></strong>
+                <div class="blc"> <h3 class="title" style="color: #ffff;"><strong>Nos services</h3></strong>
                     <ul id="menu-nos-services" class="nav-col">
                         <li id="menu-item-620" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-620"style="color: #3E96D6;"><a href="https://www.switech.fr/competences/"style="color: #3E96D6;">Création web</a></li>
                         <li id="menu-item-621" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-621"style="color: #3E96D6;"><a href="https://www.switech.fr/competences/"style="color: #3E96D6;">Référencement</a></li>
@@ -549,9 +557,9 @@ body, html {
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                <div class="blc"> <span class="title" style="color: #ffff;"><strong>Nous contacter<span></strong>
+                <div class="blc"> <h3 class="title" style="color: #ffff;"><strong>Nous contacter</h3></strong>
                     <div class="entry-content"style="color: #DCCCD2;">
-                        <p>Switech Digital Agency</br> 9 rue Macheret </br> Lagny Sur Marne</br>
+												<p>Switech Digital Agency</br> 9 rue Macheret </br> Lagny Sur Marne</br>
                         <span style="color: #DCCCD2;">
                         <strong>01 30 38 90 80</strong>
 
@@ -563,7 +571,7 @@ body, html {
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                 <div class="blc">
-                    <div class="title"style="color: #ffff;"><strong>Ne manquez pas !</div></strong>
+                  	<div class="blc">  <h3 class="title"style="color: #ffff;"><strong>Ne manquez pas !</h3></strong>
                         <ul id="menu-footer-col-4" class="nav-col col_4">
                             <li id="menu-item-617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-617"style="color: #3E96D6;"><a href="https://www.switech.fr/referencement-seo/"style="color: #3E96D6;">Le référencement SEO.</a></li>
                             <li id="menu-item-618" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-618"style="color: #3E96D6;"><a href="https://www.switech.fr/creation-seo/"style="color: #3E96D6;">Etre visible sur google au lancement de son site web</a></li>
@@ -577,7 +585,7 @@ body, html {
     <div class="row justify-content-between">
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_logo order-last order-sm-last order-lg-first align-self-end">
                 <a href="https://www.switech.fr" class="logo" title="Home"> <img src="img/Logoswitech.png" height="43" width="210" alt="switech.fr" class="disp_ib img-responsive" /> </a>
-                <span class="txt">© Switech. Tous droits réservés.</span>
+                <span class="txt">© Switech Digital Agency. Tous droits réservés.</span>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_nav align-self-end">
             <right>
@@ -588,13 +596,16 @@ body, html {
                 </a>
             </right>
             &nbsp;
-            <left>
                 <span class="fa-stack fa-lg">
                 <a href="https://www.instagram.com/switechagency/" target="_blank"style="color: #ffff;">
                 <i class="fa fa-circle-thin fa-stack-2x"style="color: #ffff;"></i>
                 <i class="fa fa-instagram fa-stack-1x"></i>
                 </a>
                 </span>
+								<br>
+								</br>
+								<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="fr_FR" data-type="horizontal" data-theme="dark" data-vanity="switech-digital-agency-78a09617a"><a class="LI-simple-link" href='https://fr.linkedin.com/in/switech-digital-agency-78a09617a?trk=profile-badge'>Switech Digital Agency</a></div>
+								<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
             </div>
         </div>
     </div>
