@@ -389,7 +389,7 @@ body, html {
     </div>
 		<div class="w3-col l3 m6 w3-margin-bottom">
 			<div class="w3-card">
-				<img src="img/idk_rond.png" alt="Johanna" style="width:100%">
+				<img src="img/joa.png" alt="Johanna" style="width:100%">
 				<div class="w3-container">
 					<h3>Johanna GUERY</h3>
 					<p class="w3-opacity">Community Manager</p>
@@ -582,7 +582,12 @@ body, html {
                         <span style="color: #DCCCD2;">
                         <strong>06 42 46 52 23</strong>
                         </p>
+<<<<<<< HEAD
+                        <p>SARL au capital de 1000€</br> Siren: 00000000000000</p>
+                        <p>SARL au capital de 1000€</br></p>
+=======
                         <p>SAS au capital de 1000€</br> Siren: En cours d'immatriculation</p>
+>>>>>>> 342db0a1623e4d9a222e9fc178273dbfafe4311f
                         </span>
                     </div>
                 </div>
