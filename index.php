@@ -377,7 +377,7 @@ body, html {
     </div>
 		<div class="w3-col l3 m6 w3-margin-bottom">
 			<div class="w3-card">
-				<img src="img/idk_rond.png" alt="Johanna" style="width:100%">
+				<img src="img/joa.png" alt="Johanna" style="width:100%">
 				<div class="w3-container">
 					<h3>Johanna GUERY</h3>
 					<p class="w3-opacity">Community Manager</p>
@@ -582,13 +582,9 @@ body, html {
 												<p>Switech Digital Agency</br> 9 rue Macheret </br> Lagny Sur Marne</br>
                         <span style="color: #DCCCD2;">
                         <strong>06 42 46 52 23</strong>
-
                         </p>
-<<<<<<< HEAD
                         <p>SARL au capital de 1000€</br> Siren: 00000000000000</p>
-=======
                         <p>SARL au capital de 1000€</br></p>
->>>>>>> c099f5a31e6ff982a36127fbb5c4acd0cd5fd770
                         </span>
                     </div>
                 </div>
