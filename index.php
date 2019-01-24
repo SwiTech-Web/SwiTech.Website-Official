@@ -3,7 +3,7 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html>
-<title>Switech</title>
+<title>Switech Digital Agency | Paris</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="img/ico.png" type="image/png" sizes="16x16">
@@ -196,7 +196,7 @@ body, html {
     <div class="w3-quarter">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large">Sur Mesure</p>
-      <p>Nous analysons votre demande, puis ensemble nous créons votre projet. Ensuite nous développons votre solution sur mesure. Exprimez vos envies, nous les réaliserons !</p>
+      <p>Nous analysons votre demande, puis ensemble nous créons votre projet digital. Ensuite nous développons votre solution sur mesure. Exprimez vos envies, nous les réaliserons !</p>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-check-circle w3-margin-bottom w3-jumbo"></i>
@@ -422,15 +422,6 @@ body, html {
 </div>
 
 
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
 <!-- Nos compétences -->
 <div class="w3-container w3-light-grey w3-padding-64">
   <div class="w3-row-padding">
@@ -459,15 +450,15 @@ body, html {
       </div>
 			<p class="w3-wide"><i class="fa fa-pencil w3-margin-right"></i>Réalisation Graphique</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
       </div>
       <p class="w3-wide"><i class="fa fa-instagram w3-margin-right"></i>Community Management</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
       </div>
       <p class="w3-wide"><i class="fa fa-google w3-margin-right"></i>Référencement SEO/SEA</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
       </div>
 			<p class="w3-wide"><i class="fa fa-users w3-margin-right"></i>Marketing d'Influence</p>
       <div class="w3-grey">
@@ -576,7 +567,7 @@ body, html {
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+						<div class="col-12 col-sm-12 col-md-6 col-lg-3">
                 <div class="blc"> <h3 class="title" style="color: #ffff;"><strong>Nos services</h3></strong>
                     <ul id="menu-nos-services" class="nav-col">
                         <li id="menu-item-620" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-620"style="color: #3E96D6;"><a href="https://www.switech.fr/competences/"style="color: #3E96D6;">Création web</a></li>
@@ -611,7 +602,7 @@ body, html {
 <div class="copyright">
     <div class="row justify-content-between">
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_logo order-last order-sm-last order-lg-first align-self-end">
-                <a href="https://www.switech.fr" class="logo" title="Home"> <img src="img/Logoswitech2.png" height="43" width="210" alt="switech.fr" class="disp_ib img-responsive" /> </a>
+                <a href="https://www.switech.fr" class="logo" title="Accueil Switech"> <img src="img/Logoswitech2.png" height="43" width="210" alt="switech.fr" class="disp_ib img-responsive" /> </a>
                 <span class="txt">© Switech Digital Agency. Tous droits réservés.</span>
             </div>
            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_nav align-self-end">
