@@ -564,7 +564,7 @@ body, html {
             <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                 <div class="blc"> <h3 class="title"style="color: #ffff;"> <strong>L'agence</h3></strong>
                     <div class="entry-content"style="color: #DCCCD2;">
-                        <p>Nous créons des sites internets en prenant en compte dès la conception les objectifs de visibilité sur Google. Nous assurons aussi le référencement de sites déjà en ligne.</p>
+                        <p>Nous créons des sites internet en prenant en compte dès la conception les objectifs de visibilité sur Google. Nous assurons aussi le référencement de sites déjà en ligne.</p>
                     </div>
                 </div>
             </div>
@@ -584,7 +584,11 @@ body, html {
                         <strong>06 42 46 52 23</strong>
 
                         </p>
+<<<<<<< HEAD
                         <p>SARL au capital de 1000€</br> Siren: 00000000000000</p>
+=======
+                        <p>SARL au capital de 1000€</br></p>
+>>>>>>> c099f5a31e6ff982a36127fbb5c4acd0cd5fd770
                         </span>
                     </div>
                 </div>
