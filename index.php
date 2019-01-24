@@ -230,7 +230,7 @@ body, html {
 					<a href="img/Mika-folio.png" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="img/Mika-folio.png" alt="Image" class="img-responsive">
+							<img src="img/Mika-folio.png" alt="Portfolio du sportif Mickael Gomes" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Portfolio</h2>
@@ -243,7 +243,7 @@ body, html {
 					<a href="img/ormesson.png" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="img/ormesson.png" alt="Image" class="img-responsive">
+							<img src="img/ormesson.png" alt="Conception du site web de la marque Ormesson" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Ormesson Paris</h2>
@@ -256,7 +256,7 @@ body, html {
 					<a href="img/reixtravel.png" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="img/reixtravel.png" alt="Image" class="img-responsive">
+							<img src="img/reixtravel.png" alt="Création du site web pour l'agence Reix Voyage" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Agence Reix Voyage</h2>
@@ -269,7 +269,7 @@ body, html {
 					<a href="img/pourozoir.png" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="img/pourozoir.png" alt="Image" class="img-responsive">
+							<img src="img/pourozoir.png" alt="Conception du site web Pour Ozoir" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Association "Pour Ozoir"</h2>
@@ -283,7 +283,7 @@ body, html {
 					<a href="img/vienneycorporation.png" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="img/vienneycorporation.png" alt="Image" class="img-responsive">
+							<img src="img/vienneycorporation.png" alt="Création du site web pour l'entreprise Vienney Corporation" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Entreprise Vienney Corporation</h2>
@@ -297,7 +297,7 @@ body, html {
 					<a href="img/travelreix.png" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
-							<img src="img/travelreix.png" alt="Image" class="img-responsive">
+							<img src="img/travelreix.png" alt="Création du site web de l'agence Reix Travel" class="img-responsive">
 						</figure>
 						<div class="fh5co-text">
 							<h2>Site de l'agence Reix Travel</h2>
