@@ -19,6 +19,14 @@ body {
   background: #fff;
 }
 
+.left {
+
+}
+
+.right {
+  margin-left: 75%;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
