@@ -592,10 +592,10 @@ body, html {
                 <div class="blc">
                   	<div class="blc">  <h3 class="title" style="color: #ffff;"><strong>Ne manquez pas !</h3></strong>
                         <ul id="menu-footer-col-4" class="nav-col col_4">
-                            <li id="menu-item-617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-617"style="color: #3E96D6;"><a href="https://www.switech.fr/referencement-seo/"style="color: #3E96D6;">Le référencement SEO.</a></li>
-                            <li id="menu-item-618" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-618"style="color: #3E96D6;"><a href="https://www.switech.fr/creation-seo/"style="color: #3E96D6;">Etre visible sur google au lancement de son site web</a></li>
-                            <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"style="color: #3E96D6;"><a href="https://www.switech/#informations-legales/"style="color: #3E96D6;">Informations légales</a></li>
-                            <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12"style="color: #3E96D6;"><a href="https://www.switech.fr/#contact/"style="color: #3E96D6;">Contact</a></li>
+                            <li id="menu-item-617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-617"style="color: #3E96D6;"><a href=""style="color: #3E96D6;">Le référencement SEO.</a></li>
+                            <li id="menu-item-618" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-618"style="color: #3E96D6;"><a href=""style="color: #3E96D6;">Etre visible sur google au lancement de son site web</a></li>
+                            <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"style="color: #3E96D6;"><a href=""style="color: #3E96D6;">Informations légales</a></li>
+                            <li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12"style="color: #3E96D6;"><a href="https://www.switech.fr/#contact"style="color: #3E96D6;">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -629,7 +629,7 @@ body, html {
         </div>
     </div>
 </div>
-
+</div>
 </footer>
 
 <script>
