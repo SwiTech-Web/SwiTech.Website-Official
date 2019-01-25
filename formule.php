@@ -64,17 +64,9 @@ if(isset($_POST['submitpost'])) {
 				header('Location: index.php#team');
 				exit;
 			}
-			else {
-				header('Location: index.php#team');
-				exit;
-			}
-		} else {
-				header('Location: index.php#team');
-				exit;
-		}
-	}
-	else {
-		var_dump('Captcha non rempli');
-	}
+    }
+  }
 }
+
+
 ?>

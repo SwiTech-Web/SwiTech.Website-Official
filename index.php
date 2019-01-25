@@ -331,7 +331,7 @@ body, html {
 				<div class="w3-container">
 					<h3>Théo De Nanassy</h3>
 					<p class="w3-opacity">Développeur</p>
-					<p>Théo De Nanassy, Ingénieur Expert Epitech 5éme année Switech</p>
+					<p>Théo De Nanassy, Ingénieur Expert Epitech</br>Switech</p>
 					<center><p><button class="w3-button w3-light-grey w3-block" onclick="openForm()"><i class="fa fa-envelope"></i> Contact</button></p></center>
 				</div>
 			</div>
@@ -367,30 +367,16 @@ body, html {
 							<label for="sujet"><b>Sujet</b></label>
 							<input type="sujet" placeholder="Entrer votre sujet..." name="sujet" required>
 
-							<label for="text"><b>Votre message</b></label>
-							<input type="text" placeholder="Entrer votre texte..." name="text" required>
-		          <div class="g-recaptcha"
-		          data-sitekey="6LdwLowUAAAAAFkM-fIzzpREJMKIRXW43yzvL4XY">
-		          </div>
-							<?php
-							  require('recaptcha/autoload.php');
-							  if(isset($_POST['submit'])) {
-							    if(isset($_POST['g-recaptcha-response'])) {
-							      $recaptcha = new \ReCaptcha\ReCaptcha('6LdwLowUAAAAAG0kaUNDihtshNeBy35LD67xt-tV');
-							      $resp = $recaptcha->verify($_POST['g-recaptcha-response']);
-							      if ($resp->isSuccess()) {
-							          var_dump('Captcha Valide');
-							      } else {
-							          $errors = $resp->getErrorCodes();
-							          var_dump('Captcha Invalide');
-							          var_dump($errors);
-							      }
-							    } else {
-							      var_dump('Captcha non rempli');
-							    }
-							  }
-							?>
-							<button type="submit" class="btn" name="submit">Envoyer</button>
+							<!-- <label for="text"><b>Votre message</b></label>
+							<input type="text" placeholder="Entrer votre texte..." name="text" required> -->
+							<div class="md-form">
+							  <i class="fas fa-pencil-alt prefix"></i>
+								<label for="text"><b>Votre message</b></label>
+							  <textarea type="text" id="form10" placeholder="Entrer votre texte..." class="md-textarea form-control" rows="3" style="background:#F1F1F1;" name="text"></textarea>
+							</div>
+
+							<div class="g-recaptcha" data-sitekey="6LdwLowUAAAAAFkM-fIzzpREJMKIRXW43yzvL4XY"></div>
+							<button type="submit" class="btn" name="submitpost">Envoyer</button>
 					    <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>
 					  </form>
 					</div>
@@ -540,12 +526,14 @@ body, html {
     <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>Téléphone : +33642465223</p>
     <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: contact@switech.com</p>
     <br>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-      <p><button class="w3-button w3-black" type="submit"><i class="fa fa-paper-plane"></i> Envoyer Message</button></p>
+    <form action="contact.php" method="post" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="name_contact"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="email_contact"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="subject_contact"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="message_contact"></p>
+			<div class="g-recaptcha" data-sitekey="6LdwLowUAAAAAFkM-fIzzpREJMKIRXW43yzvL4XY"></div>
+			</br>
+      <p><button class="w3-button w3-black" type="submit" name="submit_contact"><i class="fa fa-paper-plane"></i> Envoyer Message</button></p>
     </form>
 		<!-- Image of location/map -->
   </div>
@@ -690,6 +678,6 @@ $('a[href^="#"]').click(function(){
 	return false;
 });
 </script>
-
+<script type="text/javascript" src="js/jquery.js"></script><script type="text/javascript" src="js/my_fonctions.js"></script>
 </body>
 </html>
