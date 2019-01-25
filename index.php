@@ -220,7 +220,9 @@ body, html {
     </div>
   </div>
 </div>
-
+	<center>
+		<hr width="50%" color="grey">
+	</center>
 <!-- Promo Section - "We know design" -->
 <div class="gtco-section" id="work">
 		<div class="gtco-container">
@@ -315,6 +317,9 @@ body, html {
 			</div>
 		</div>
 	</div>
+	<center>
+	<hr width="50%" color="grey">
+	</center>
 <!-- Team Section -->
 <div class="w3-container" style="padding:128px 16px" id="team">
   <h1 class="w3-center">Notre équipe</h1>
