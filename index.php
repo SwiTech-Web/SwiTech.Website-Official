@@ -487,7 +487,7 @@ body, html {
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-black w3-xlarge w3-padding-32">Standard</li>
         <li class="w3-padding-16"><b>Package Site Vitrine professionnel / Portfolio / Blog + Référencement + Formation Réseaux Sociaux</b></li>
-        <li class="w3-padding-16"><b>10</b> Emails + Comptes Réseau Sociaux</li>
+        <li class="w3-padding-16"><b>Comptes Réseaux Sociaux</li></b>
         <li class="w3-padding-16"><b>1</b>Nom de domaine </li>
         <li class="w3-padding-16"><b>24h/24</b> Support</li>
         <li class="w3-padding-16">
@@ -502,7 +502,7 @@ body, html {
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-red w3-xlarge w3-padding-48">Pro</li>
         <li class="w3-padding-16"><b>Site professionnel + Référencement + Animation des Réseaux Sociaux / Applications Mobiles</b></li>
-        <li class="w3-padding-16"><b>100</b> Emails + Comptes Réseaux Sociaux</li>
+        <li class="w3-padding-16"><b>Comptes Réseaux Sociaux et/ou Shooting Photo (Montage, Réalisation graphique)</li></b>
         <li class="w3-padding-16"><b>1</b>Nom de domaine(plusieurs sous domaines possibles)</li>
         <li class="w3-padding-16"><b>24h/24</b> Support</li>
         <li class="w3-padding-16">
@@ -517,7 +517,7 @@ body, html {
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-black w3-xlarge w3-padding-32">Expert</li>
         <li class="w3-padding-16"><b>Package Site professionnel + Référencement + Marketing / Applications Mobiles + Marketing</b></li>
-        <li class="w3-padding-16"><b>100</b> Emails + Comptes Réseaux Sociaux</li>
+        <li class="w3-padding-16"><b>Comptes Réseaux Sociaux, Animation des réseaux sociaux, et/ou Shooting Photo (Montage, Réalisation graphique)</li></b>
         <li class="w3-padding-16"><b>1</b>Nom de domaine(plusieurs sous domaines possibles)</li>
         <li class="w3-padding-16"><b>24h/24</b> Support</li>
         <li class="w3-padding-16">
