@@ -603,7 +603,11 @@ body, html {
 <div class="copyright">
     <div class="row justify-content-between">
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_logo order-last order-sm-last order-lg-first align-self-end">
+<<<<<<< HEAD
                 <a href="https://www.switech.fr" class="logo" title="Accueil Switech"> <img src="img/logoswitech.png" height="43" width="210" alt="switech.fr" class="disp_ib img-responsive" /> </a>
+=======
+                <a href="https://www.switech.fr" class="logo" title="Accueil Switech"> <img src="img/Logoswitech.png" height="43" width="210" alt="switech.fr" class="disp_ib img-responsive" /> </a>
+>>>>>>> 0e865925389fa0e9843d3347170479baa6cf3515
                 <span class="txt">© Switech Digital Agency. Tous droits réservés.</span>
             </div>
            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_nav align-self-end">
