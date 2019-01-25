@@ -4,9 +4,12 @@ session_start();
 <!DOCTYPE html>
 <html>
 <html lang="fr">
-<title>Switech Digital Agency | Paris</title>
+<head>
+<title>Switech Digital Agency | Paris | Expert Digital</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Expert en création de sites web, applications mobiles, référencement SEO/SEA, et community management, nous proposons des solutions web sur-mesure."/>
+</head>
 <link rel="icon" href="img/ico.jpeg" type="image/jpeg" sizes="16x16">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -191,7 +194,8 @@ body, html {
 
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
-  <h2 class="w3-center">À PROPOS DE NOTRE SOCIÉTÉ</h2>
+	<meta name="title" content="A propos de notre société, tout ce que vous devez savoir sur notre manière de fonctionner">
+  <h1 class="w3-center">À PROPOS DE NOTRE SOCIÉTÉ</h1>
   <p class="w3-center w3-large">Nos Mots d'ordres</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
@@ -313,7 +317,7 @@ body, html {
 	</div>
 <!-- Team Section -->
 <div class="w3-container" style="padding:128px 16px" id="team">
-  <h3 class="w3-center">Notre équipe</h3>
+  <h1 class="w3-center">Notre équipe</h1>
   <p class="w3-center w3-large">Le coeur de notre société</p>
   <div class="w3-row-padding " style="margin-top:64px">
 		<div class="w3-col l3 m6 w3-margin-bottom">
@@ -427,7 +431,7 @@ body, html {
 <div class="w3-container w3-light-grey w3-padding-64">
   <div class="w3-row-padding">
     <div class="w3-col m6">
-      <h3>Nos compétences</h3>
+      <h2>Nos compétences</h2>
       <p>Voici la liste de nos compétences, et des missions que nous pouvons accomplir ensemble.</p>
 			<br>
 			<ul style="list-style-type:circle">
@@ -471,7 +475,7 @@ body, html {
 
 <!-- Pricing Section -->
 <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
-  <h3>Formules</h3>
+  <h2>Formules</h2>
   <p class="w3-large">Vous pouvez choisir une formule</p>
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-third w3-section">
@@ -524,7 +528,7 @@ body, html {
 
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-  <h3 class="w3-center">CONTACT</h3>
+  <h2 class="w3-center">CONTACT</h2>
   <p class="w3-center w3-large">Racontez nous votre projet !</p>
   <div style="margin-top:48px">
     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Paris, France</p>
