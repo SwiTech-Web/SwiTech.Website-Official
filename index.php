@@ -548,7 +548,9 @@ body, html {
 	</div>
 
 	<div class="w3-col l3 m6 w3-margin-bottom">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10497.18741125175!2d2.69573574674044!3d48.87161728240737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61b14fa1e3b81%3A0x40b82c3688c5720!2s77400+Lagny-sur-Marne!5e0!3m2!1sen!2sfr!4v1548179686125" width="500" height="725" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<div class="iframe-container">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10497.18741125175!2d2.69573574674044!3d48.87161728240737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61b14fa1e3b81%3A0x40b82c3688c5720!2s77400+Lagny-sur-Marne!5e0!3m2!1sen!2sfr!4v1548179686125" width="500" height="725" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
 	</div>
 
 	<div class="w3-col l2 m2 w3-margin-bottom">
@@ -556,8 +558,10 @@ body, html {
 
 	<!-- InstaWidget -->
 	<div class="w3-col l3 m6 w3-margin-bottom">
-		<a href="https://instawidget.net/v/user/switechagency" id="link-b5481776805282db148ad7209678d9fe2a8f9863a4d018033479af8adf2d0d70">@switechagency</a>
-		<script src="https://instawidget.net/js/instawidget.js?u=b5481776805282db148ad7209678d9fe2a8f9863a4d018033479af8adf2d0d70&width=500px"></script>
+		<div class="iframe-container">
+			<a href="https://instawidget.net/v/user/switechagency" id="link-b5481776805282db148ad7209678d9fe2a8f9863a4d018033479af8adf2d0d70">@switechagency</a>
+			<script src="https://instawidget.net/js/instawidget.js?u=b5481776805282db148ad7209678d9fe2a8f9863a4d018033479af8adf2d0d70&width=500px"></script>
+		</div>
 	</div>
 </div>
 
