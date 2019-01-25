@@ -138,7 +138,7 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">SWITECH</a>
+    <a href="#home" class="w3-bar-item w3-button w3-wide">SWITECH</a><img src="img/ico.jpeg" width="40px" height="40px" style="margin-top:10px;"/>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">A PROPOS</a>
@@ -563,10 +563,8 @@ body, html {
 
 	<!-- InstaWidget -->
 	<div class="w3-col l3 m6 w3-margin-bottom">
-		<div class="iframe-container">
 			<a href="https://instawidget.net/v/user/switechagency" id="link-b5481776805282db148ad7209678d9fe2a8f9863a4d018033479af8adf2d0d70">@switechagency</a>
 			<script src="https://instawidget.net/js/instawidget.js?u=b5481776805282db148ad7209678d9fe2a8f9863a4d018033479af8adf2d0d70&width=500px"></script>
-		</div>
 	</div>
 </div>
 

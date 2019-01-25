@@ -32,7 +32,6 @@ body {
 .iframe-container {
   overflow: hidden;
   padding-top: 160%;
-  padding-left: 120%;
   position: relative;
 }
 
