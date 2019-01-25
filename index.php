@@ -216,7 +216,7 @@ body, html {
     <div class="w3-quarter">
       <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Support</p>
-      <p>Notre support se tient à votre entière disposition, vous effectuez vos maintenances et répondre à vos questions. Nous sommes disponible directement par mail ou téléphone.</p>
+      <p>Notre support se tient à votre entière disposition, pour effectuez vos maintenances et répondre à vos questions. Nous sommes disponible directement par mail ou téléphone.</p>
     </div>
   </div>
 </div>
