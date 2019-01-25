@@ -579,7 +579,7 @@ body, html {
             <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                 <div class="blc"> <h3 class="title" style="color: #ffff;"><strong>Nous contacter</h3></strong>
                     <div class="entry-content" style="color: #DCCCD2;">
-												<p>Switech Digital Agency</br> 9 rue Macheret </br> Lagny Sur Marne</br>
+												<p>Switech Digital Agency</br> 9 rue Macheret </br>77400 Lagny Sur Marne</br>
                         <span style="color: #DCCCD2;">
                         <strong>06 42 46 52 23</strong>
                         </p>
