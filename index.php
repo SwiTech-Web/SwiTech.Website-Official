@@ -548,20 +548,26 @@ body, html {
       <p><button class="w3-button w3-black" type="submit"><i class="fa fa-paper-plane"></i> Envoyer Message</button></p>
     </form>
 		<!-- Image of location/map -->
-    <left>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10497.18741125175!2d2.69573574674044!3d48.87161728240737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61b14fa1e3b81%3A0x40b82c3688c5720!2s77400+Lagny-sur-Marne!5e0!3m2!1sen!2sfr!4v1548179686125" width="500" height="725" frameborder="0" style="border:0" allowfullscreen></iframe>
-		</left>
+  </div>
+	<div class="w3-col l2 m2 w3-margin-bottom">
+	</div>
 
-		<!-- InstaWidget -->
-		<right>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<div class="w3-col l3 m6 w3-margin-bottom">
+		<div class="iframe-container">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10497.18741125175!2d2.69573574674044!3d48.87161728240737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61b14fa1e3b81%3A0x40b82c3688c5720!2s77400+Lagny-sur-Marne!5e0!3m2!1sen!2sfr!4v1548179686125" width="500" height="725" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</div>
+
+	<div class="w3-col l2 m2 w3-margin-bottom">
+	</div>
+
+	<!-- InstaWidget -->
+	<div class="w3-col l3 m6 w3-margin-bottom">
+		<div class="iframe-container">
 			<a href="https://instawidget.net/v/user/switechagency" id="link-b5481776805282db148ad7209678d9fe2a8f9863a4d018033479af8adf2d0d70">@switechagency</a>
 			<script src="https://instawidget.net/js/instawidget.js?u=b5481776805282db148ad7209678d9fe2a8f9863a4d018033479af8adf2d0d70&width=500px"></script>
-		</right>
-  </div>
+		</div>
+	</div>
 </div>
 
 <!-- Footer -->
@@ -612,11 +618,7 @@ body, html {
 <div class="copyright">
     <div class="row justify-content-between">
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_logo order-last order-sm-last order-lg-first align-self-end">
-<<<<<<< HEAD
-                <a href="https://www.switech.fr" class="logo" title="Accueil Switech"> <img src="img/logoswitech.png" height="43" width="210" alt="switech.fr" class="disp_ib img-responsive" /> </a>
-=======
                 <a href="https://www.switech.fr" class="logo" title="Accueil Switech"> <img src="img/Logoswitech.png" height="43" width="210" alt="switech.fr" class="disp_ib img-responsive" /> </a>
->>>>>>> 0e865925389fa0e9843d3347170479baa6cf3515
                 <span class="txt">© Switech Digital Agency. Tous droits réservés.</span>
             </div>
            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col_nav align-self-end">
