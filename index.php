@@ -460,19 +460,19 @@ body, html {
       </div>
 			<p class="w3-wide"><i class="fa fa-pencil w3-margin-right"></i>Réalisation Graphique</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
       </div>
       <p class="w3-wide"><i class="fa fa-instagram w3-margin-right"></i>Community Management</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
       </div>
       <p class="w3-wide"><i class="fa fa-google w3-margin-right"></i>Référencement SEO/SEA</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
       </div>
 			<p class="w3-wide"><i class="fa fa-users w3-margin-right"></i>Marketing d'Influence</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:65%">65%</div>
+        <div class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
     </div>
 		<br>
   </div>
