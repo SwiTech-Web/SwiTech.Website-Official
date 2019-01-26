@@ -2,6 +2,7 @@
 session_start();
 
 require('recaptcha/autoload.php');
+$_SESSION['ret_con'] = 0;
 
 if(isset($_POST['submit_contact'])) {
 	if(isset($_POST['g-recaptcha-response'])) {
@@ -62,15 +63,18 @@ if(isset($_POST['submit_contact'])) {
         //==========
         //=====Envoi de l'e-mail.
         mail($mail,$sujet,$message,$header);
+				$_SESSION['ret_con'] = 1;
         header('Location: index.php#contact');
         exit;
       }
       else {
+				$_SESSION['ret_con'] = 2;
 				header('Location: index.php#team');
 				exit;
 			}
     }
     else {
+			$_SESSION['ret_con'] = 2;
 			header('Location: index.php#team');
 			exit;
 		}

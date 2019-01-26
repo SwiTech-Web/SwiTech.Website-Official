@@ -37,10 +37,6 @@ session_start();
 	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/mesfonctions.js"></script>
-	<script src="https://www.google.com/recaptcha/api.js"></script>
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
@@ -171,7 +167,7 @@ body, html {
     <span class="w3-jumbo w3-hide-small">Nous donnons vie à vos projets
       <br>dans l'univers du digital</span><br>
     <span class="w3-xxlarge w3-hide-large w3-hide-medium">Nous donnons vie à vos projets dans l'univers du digital</span><br>
-      <span class="w3-large">Léguer vos projets à des professionnels.</span>
+      <span class="w3-large">Léguer vos projets à des professionnels</span>
     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Lancez-vous maintenant</a></p>
   </div>
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
@@ -221,7 +217,7 @@ body, html {
   </div>
 </div>
 	<center>
-		<hr width="50%" color="grey">
+		<hr width="50%">
 	</center>
 <!-- Promo Section - "We know design" -->
 <div class="gtco-section" id="work">
@@ -378,6 +374,26 @@ body, html {
 							<div class="g-recaptcha" data-sitekey="6LdwLowUAAAAAFkM-fIzzpREJMKIRXW43yzvL4XY"></div>
 							<button type="submit" class="btn" name="submitpost">Envoyer</button>
 					    <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>
+							<?php
+								if ($_SESSION['ret'] == 1)
+								{
+									?>
+									<script>
+										alert("Message bien envoyé !");
+									</script>
+									<?php
+									$_SESSION['ret'] = 0;
+								}
+								elseif ($_SESSION['ret'] == 2)
+								{
+									?>
+									<script>
+										alert("Veuillez remplir captcha !");
+									</script>
+									<?php
+									$_SESSION['ret'] = 0;
+								}
+								?>
 					  </form>
 					</div>
         </div>
@@ -532,6 +548,26 @@ body, html {
       <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="subject_contact"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="message_contact"></p>
 			<div class="g-recaptcha" data-sitekey="6LdwLowUAAAAAFkM-fIzzpREJMKIRXW43yzvL4XY"></div>
+			<?php
+				if ($_SESSION['ret_con'] == 1)
+				{
+					?>
+					<script>
+						alert("Message bien envoyé !");
+					</script>
+					<?php
+					$_SESSION['ret_con'] = 0;
+				}
+				elseif ($_SESSION['ret_con'] == 2)
+				{
+					?>
+					<script>
+						alert("Veuillez remplir captcha !");
+					</script>
+					<?php
+					$_SESSION['ret_con'] = 0;
+				}
+				?>
 			</br>
       <p><button class="w3-button w3-black" type="submit" name="submit_contact"><i class="fa fa-paper-plane"></i> Envoyer Message</button></p>
     </form>
@@ -632,7 +668,6 @@ body, html {
 </div>
 </div>
 </footer>
-
 <script>
 // Modal Image Gallery
 function onClick(element) {
@@ -667,17 +702,11 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 
-$('a[href^="#"]').click(function(){
-	var the_id = $(this).attr("href");
-	if (the_id === '#') {
-		return;
-	}
-	$('html, body').animate({
-		scrollTop:$(the_id).offset().top
-	}, 'slow');
-	return false;
-});
 </script>
-<script type="text/javascript" src="js/jquery.js"></script><script type="text/javascript" src="js/my_fonctions.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.js"></script><script type="text/javascript" src="js/my_fonctions.js"></script> -->
+<script src="js/modernizr-2.6.2.min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.js"></script> -->
+<script type="text/javascript" src="js/mesfonctions.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 </html>

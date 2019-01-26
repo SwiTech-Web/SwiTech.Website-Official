@@ -2,7 +2,7 @@
 session_start();
 
 require('recaptcha/autoload.php');
-
+$_SESSION['ret'] = 0;
 
 if(isset($_POST['submitpost'])) {
 	if(isset($_POST['g-recaptcha-response'])) {
@@ -61,19 +61,23 @@ if(isset($_POST['submitpost'])) {
 				//==========
 				//=====Envoi de l'e-mail.
 				mail($mail,$sujet,$message,$header);
+				$_SESSION['ret'] = 1;
 				header('Location: index.php#team');
 				exit;
 			}
 			else {
+				$_SESSION['ret'] = 2;
 				header('Location: index.php#team');
 				exit;
 			}
 		} else {
+				$_SESSION['ret'] = 2;
 				header('Location: index.php#team');
 				exit;
 		}
 	}
 	else {
+		$_SESSION['ret'] = 2;
 		var_dump('Captcha non rempli');
 	}
 }
