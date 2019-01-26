@@ -62,7 +62,16 @@ body, html {
 .form-popup {
   display: none;
   position: fixed;
-  bottom: 25%;
+  bottom: 10%;
+  right: 2%;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-popup-6x6 {
+  display: none;
+  position: fixed;
+  bottom: 2%;
   right: 2%;
   border: 3px solid #f1f1f1;
   z-index: 9;
@@ -548,28 +557,28 @@ body, html {
       <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="subject_contact"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="message_contact"></p>
 			<div class="g-recaptcha" data-sitekey="6LdwLowUAAAAAFkM-fIzzpREJMKIRXW43yzvL4XY"></div>
+			</br>
+      <p><button class="w3-button w3-black" type="submit" name="submit_contact"><i class="fa fa-paper-plane"></i> Envoyer Message</button></p>
 			<?php
-				if ($_SESSION['ret_con'] == 1)
+				if ($_SESSION['conr'] == 1)
 				{
 					?>
 					<script>
 						alert("Message bien envoyé !");
 					</script>
 					<?php
-					$_SESSION['ret_con'] = 0;
+					$_SESSION['conr'] = 0;
 				}
-				elseif ($_SESSION['ret_con'] == 2)
+				elseif ($_SESSION['conr'] == 2)
 				{
 					?>
 					<script>
 						alert("Veuillez remplir captcha !");
 					</script>
 					<?php
-					$_SESSION['ret_con'] = 0;
+					$_SESSION['conr'] = 0;
 				}
 				?>
-			</br>
-      <p><button class="w3-button w3-black" type="submit" name="submit_contact"><i class="fa fa-paper-plane"></i> Envoyer Message</button></p>
     </form>
 		<!-- Image of location/map -->
   </div>

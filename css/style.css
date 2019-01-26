@@ -46,10 +46,14 @@ body {
    width: 100%;
 }
 
-/* 4x3 Aspect Ratio */
+/* .iframe-container-16x9 {
+  padding-top: 100%;
+}
+
+/* 4x3 Aspect Ratio 
 .iframe-container-4x3 {
   padding-top: 75%;
-}
+} */
 
 .offcanvas #page {
   overflow: hidden;
