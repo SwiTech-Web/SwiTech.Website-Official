@@ -166,6 +166,26 @@ body, html {
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+#stick {
+  width: 250px;
+  height: 200px;
+  position :relative;
+  -webkit-animation: mymove 10s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 10s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: -100px;}
+  to {left: 2000px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  from {left: -100px;}
+  to {left: 2000px;}
+}
 </style>
 <body>
 
@@ -273,7 +293,7 @@ body, html {
 	<center>
 		<hr width="50%">
 	</center>
-	<img class="mystick" src="img/stick-run.gif" width="250" height="200"/>
+	<img id="stick" src="img/stick-run.gif"/>
 <!-- Promo Section - "We know design" -->
 <div class="bgimg-1 gtco-section" id="work">
 		<div class="gtco-container">
@@ -788,6 +808,18 @@ function myFunction() {
 		}
 	}
 }
+
+// var elem = document.getElementById("myAnimation");
+// var margin-left = 0;
+// var id = setInterval(frame, 10);
+// 	function frame() {
+// 	if (margin-left >= 350) {
+// 		clearInterval(id);
+// 	} else {
+// 		margin-left++;
+// 		elem.style.margin = margin-left + 'px';
+// 	}
+// }
 </script>
 <script src="js/jquery.counterup.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
