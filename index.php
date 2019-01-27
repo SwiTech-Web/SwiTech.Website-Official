@@ -51,6 +51,10 @@ body, html {
   background-size: cover;
   background-image: url("img/mac.jpg");
   min-height: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .w3-bar .w3-button {
@@ -176,7 +180,7 @@ body, html {
     <span class="w3-jumbo w3-hide-small">Nous donnons vie à vos projets
       <br>dans l'univers du digital</span><br>
     <span class="w3-xxlarge w3-hide-large w3-hide-medium">Nous donnons vie à vos projets dans l'univers du digital</span><br>
-      <span class="w3-large">Léguer vos projets à des professionnels</span>
+      <span class="w3-large">Confiez vos projets à des professionnels</span>
     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Lancez-vous maintenant</a></p>
   </div>
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
@@ -201,27 +205,27 @@ body, html {
 <div class="w3-container" style="padding:128px 16px" id="about">
 	<meta name="title" content="A propos de notre société, tout ce que vous devez savoir sur notre manière de fonctionner">
   <h1 class="w3-center">À PROPOS DE NOTRE SOCIÉTÉ</h1>
-  <p class="w3-center w3-large">Nos Mots d'ordres</p>
+  <p class="w3-center w3-large">Nos mots d'ordre</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">Sur Mesure</p>
-      <p>Nous analysons votre demande, puis ensemble nous créons votre projet digital. Ensuite nous développons votre solution sur mesure. Exprimez vos envies, nous les réaliserons !</p>
+      <p class="w3-large">Sur mesure</p>
+      <p>Nous analysons votre demande puis, ensemble, nous créons votre projet digital. Ensuite nous développons votre solution sur mesure. Exprimez vos envies, nous les réaliserons !</p>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-check-circle w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Qualité</p>
-      <p>La qualité, est pour nous une obligation afin que votre activité professionnelle soit reconnue de tous ! Votre satisfaction est notre principal objectif et nous mettrons tous les moyens en oeuvre pour y parvenir. </p>
+      <p>La qualité est pour nous un objetif afin que votre activité professionnelle soit reconnue de tous ! Votre satisfaction est notre but principal et nous mettrons tout en oeuvre pour y parvenir. </p>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-pencil w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Design</p>
-      <p>Un design sur mesure qui vous correspond ! Ce projet est le vôtre, il vous ressemble ! Confiez nous votre charte graphique nous nous occupons de l'adapter sur votre future solution.</p>
+      <p>Un design sur mesure qui vous correspond ! Ce projet est le vôtre, il vous ressemble ! Confiez-nous votre charte graphique, nous nous occupons de l'adapter à votre future solution.</p>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Support</p>
-      <p>Notre support se tient à votre entière disposition, pour effectuez vos maintenances et répondre à vos questions. Nous sommes disponible directement par mail ou téléphone.</p>
+      <p>Notre support se tient à votre entière disposition pour effectuer vos maintenances et répondre à vos questions. Nous sommes disponibles directement par mail ou téléphone.</p>
     </div>
   </div>
 </div>
@@ -336,7 +340,7 @@ body, html {
 				<div class="w3-container">
 					<h3>Théo De Nanassy</h3>
 					<p class="w3-opacity">Développeur</p>
-					<p>Théo De Nanassy, Ingénieur Expert Epitech</br>Switech</p>
+					<p>Ingénieur Expert Epitech</br>Switech</p>
 					<center><p><button class="w3-button w3-light-grey w3-block" onclick="openForm()"><i class="fa fa-envelope"></i> Contact</button></p></center>
 				</div>
 			</div>
@@ -347,7 +351,7 @@ body, html {
         <div class="w3-container">
           <h3>Ilan BENAYOUN</h3>
           <p class="w3-opacity">CEO & Founder</p>
-          <p>Ilan BENAYOUN, CEO et fondateur de l'agence digitale Switech</p>
+          <p>CEO et fondateur de l'agence digitale </br>Switech</p>
 					<center><p><button class="w3-button w3-light-grey w3-block" onclick="openForm()"><i class="fa fa-envelope"></i> Contact</button></p></center>
         </div>
       </div>
@@ -358,7 +362,7 @@ body, html {
         <div class="w3-container">
           <h3>Jordan LAURENT</h3>
           <p class="w3-opacity">Co-Founder</p>
-          <p>Jordan LAURENT, Co-Fondateur de l'agence digitale Switech.</p>
+          <p>Co-Fondateur de l'agence digitale </br>Switech.</p>
 					<center><p><button class="w3-button w3-light-grey w3-block" onclick="openForm()"><i class="fa fa-envelope"></i> Contact</button></p></center>
 					<div class="form-popup" id="myForm">
 					  <form role="form" action="push.php" method="post" class="form-container">
@@ -414,7 +418,7 @@ body, html {
 				<div class="w3-container">
 					<h3>Johanna GUERY</h3>
 					<p class="w3-opacity">Community Manager</p>
-					<p>Johanna GUERY, Community Manager</br>Switech</p>
+					<p>Community Manager</br>Switech</p>
 					<center><p><button class="w3-button w3-light-grey w3-block" onclick="openForm()"><i class="fa fa-envelope"></i> Contact</button></p></center>
 				</div>
 			</div>
@@ -425,45 +429,44 @@ body, html {
 <!-- Promo Section "Statistics" -->
 <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
   <div class="w3-quarter">
-    <span class="w3-xxlarge">14+</span>
+    <span class="w3-xxlarge">14</span>+
     <br>Partenaires
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">15+</span>
-    <br>Projets Finis
+    <span class="w3-xxlarge">15</span>+
+    <br>Projets finis
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">14+</span>
-    <br>Clients Heureux
+    <span class="w3-xxlarge">14</span>+
+    <br>Clients heureux
   </div>
   <div class="w3-quarter">
-    <span class="w3-xxlarge">35+</span>
+    <span class="w3-xxlarge">35</span>+
     <br>Rencontres
   </div>
 </div>
-
 
 <!-- Nos compétences -->
 <div class="w3-container w3-light-grey w3-padding-64">
   <div class="w3-row-padding">
     <div class="w3-col m6">
       <h2>Nos compétences</h2>
-      <p>Voici la liste de nos compétences, et des missions que nous pouvons accomplir ensemble.</p>
+      <p>Voici la liste de nos compétences et des missions que nous pouvons accomplir ensemble.</p>
 			<br>
 			<ul style="list-style-type:circle">
   			<li style="color: #3E96D6;">Création/Refonte de votre site web</li>
 				<li style="color: #3E96D6;">Création d'applications mobiles</li>
-				<li style="color: #3E96D6;">Gestion de projet numériques</li>
-				<li style="color: #3E96D6;">Effectuer le référencement SEO/SEA de votre site web</li>
+				<li style="color: #3E96D6;">Gestion de projets numériques</li>
+				<li style="color: #3E96D6;">Référencement SEO/SEA de votre site web</li>
 				<li style="color: #3E96D6;">Community Management avec vos réseaux sociaux associés</li>
-  			<li style="color: #3E96D6;">Marketing D'influence avec notre réseau d'influenceurs</li>
+  			<li style="color: #3E96D6;">Marketing d'influence avec notre réseau d'influenceurs</li>
   			<li style="color: #3E96D6;">Création graphique, rédaction de votre charte graphique</li>
 			</ul>
     </div>
     <div class="w3-col m6">
       <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Création site web / Applications</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
+        <div id="myBar" class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
       </div>
       <p class="w3-wide"><i class="fa fa-crop w3-margin-right"></i>Web Design</p>
       <div class="w3-grey">
@@ -490,16 +493,16 @@ body, html {
 </div>
 
 <!-- Pricing Section -->
-<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
-  <h2>Formules</h2>
+<div class="bgimg-1 w3-display-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h2 style="color:white;">Formules</h2>
   <p class="w3-large">Vous pouvez choisir une formule</p>
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-third w3-section">
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-black w3-xlarge w3-padding-32">Standard</li>
         <li class="w3-padding-16"><b>Package Site Vitrine professionnel / Portfolio / Blog + Référencement + Formation Réseaux Sociaux</b></li>
-        <li class="w3-padding-16"><b>Comptes Réseaux Sociaux</li></b>
-        <li class="w3-padding-16"><b>1</b>Nom de domaine </li>
+        <li class="w3-padding-16"><b>Comptes Réseaux Sociaux, Suivis et optimisation de vos profils</li></b>
+        <li class="w3-padding-16"><b>1 </b>Nom de domaine </li>
         <li class="w3-padding-16"><b>24h/24</b> Support</li>
         <li class="w3-padding-16">
           <h3 class="w3-opacity">Nous contacter pour plus d'informations</h3>
@@ -514,7 +517,7 @@ body, html {
         <li class="w3-red w3-xlarge w3-padding-48">Pro</li>
         <li class="w3-padding-16"><b>Site professionnel + Référencement + Animation des Réseaux Sociaux / Applications Mobiles</b></li>
         <li class="w3-padding-16"><b>Comptes Réseaux Sociaux et/ou Shooting Photo (Montage, Réalisation graphique)</li></b>
-        <li class="w3-padding-16"><b>1</b>Nom de domaine(plusieurs sous domaines possibles)</li>
+        <li class="w3-padding-16"><b>1 </b>Nom de domaine (plusieurs sous domaines possibles)</li>
         <li class="w3-padding-16"><b>24h/24</b> Support</li>
         <li class="w3-padding-16">
           <h3 class="w3-opacity">Nous contacter pour plus d'informations</h3>
@@ -529,7 +532,7 @@ body, html {
         <li class="w3-black w3-xlarge w3-padding-32">Expert</li>
         <li class="w3-padding-16"><b>Package Site professionnel + Référencement + Marketing / Applications Mobiles + Marketing</b></li>
         <li class="w3-padding-16"><b>Comptes Réseaux Sociaux, Animation des réseaux sociaux, et/ou Shooting Photo (Montage, Réalisation graphique)</li></b>
-        <li class="w3-padding-16"><b>1</b>Nom de domaine(plusieurs sous domaines possibles)</li>
+        <li class="w3-padding-16"><b>1 </b>Nom de domaine (plusieurs sous domaines possibles)</li>
         <li class="w3-padding-16"><b>24h/24</b> Support</li>
         <li class="w3-padding-16">
           <h3 class="w3-opacity">Nous contacter pour plus d'informations</h3>
@@ -545,16 +548,16 @@ body, html {
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
   <h2 class="w3-center">CONTACT</h2>
-  <p class="w3-center w3-large">Racontez nous votre projet !</p>
+  <p class="w3-center w3-large">Racontez-nous votre projet !</p>
   <div style="margin-top:48px">
     <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Paris, France</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>Téléphone : +33642465223</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>Téléphone : +33 6 42 46 52 23</p>
     <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: contact@switech.com</p>
     <br>
     <form action="contact.php" method="post" target="_blank">
-      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="name_contact"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Nom" required name="name_contact"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="email_contact"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="subject_contact"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Sujet" required name="subject_contact"></p>
       <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="message_contact"></p>
 			<div class="g-recaptcha" data-sitekey="6LdwLowUAAAAAFkM-fIzzpREJMKIRXW43yzvL4XY"></div>
 			</br>
@@ -610,7 +613,7 @@ body, html {
             <div class="col-12 col-sm-12 col-md-6 col-lg-3">
                 <div class="blc"> <h3 class="title" style="color: #ffff;"> <strong>L'agence</h3></strong>
                     <div class="entry-content" style="color: #DCCCD2;">
-                        <p>Nous créons des sites internet en prenant en compte dès la conception les objectifs de visibilité sur Google. Nous assurons aussi le référencement de sites déjà en ligne.</p>
+                        <p>Nous créons des sites internet en prenant en compte, dès la conception, les objectifs de visibilité sur Google. Nous assurons aussi le référencement de sites déjà en ligne.</p>
                     </div>
                 </div>
             </div>
@@ -712,6 +715,8 @@ function closeForm() {
 }
 
 </script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
 <!-- <script type="text/javascript" src="js/jquery.js"></script><script type="text/javascript" src="js/my_fonctions.js"></script> -->
 <script src="js/modernizr-2.6.2.min.js"></script>
 <!-- <script type="text/javascript" src="js/jquery.js"></script> -->
