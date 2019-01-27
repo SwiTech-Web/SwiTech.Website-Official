@@ -466,27 +466,27 @@ body, html {
     <div class="w3-col m6">
       <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Création site web / Applications</p>
       <div class="w3-grey">
-        <div id="myBar" class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
+        <div id="myBar" class="w3-container w3-dark-grey w3-center" style="width:0%">100%</div>
       </div>
       <p class="w3-wide"><i class="fa fa-crop w3-margin-right"></i>Web Design</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
+        <div id="myBar2" class="w3-container w3-dark-grey w3-center" style="width:0%">100%</div>
       </div>
 			<p class="w3-wide"><i class="fa fa-pencil w3-margin-right"></i>Réalisation Graphique</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
+        <div id="myBar3" class="w3-container w3-dark-grey w3-center" style="width:0%">100%</div>
       </div>
       <p class="w3-wide"><i class="fa fa-instagram w3-margin-right"></i>Community Management</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
+        <div id="myBar4" class="w3-container w3-dark-grey w3-center" style="width:0%">100%</div>
       </div>
       <p class="w3-wide"><i class="fa fa-google w3-margin-right"></i>Référencement SEO/SEA</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
+        <div id="myBar5" class="w3-container w3-dark-grey w3-center" style="width:0%">100%</div>
       </div>
 			<p class="w3-wide"><i class="fa fa-users w3-margin-right"></i>Marketing d'Influence</p>
       <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:100%">100%</div>
+        <div id="myBar6" class="w3-container w3-dark-grey w3-center" style="width:0%">100%</div>
     </div>
 		<br>
   </div>
@@ -714,6 +714,38 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 
+window.onscroll = function() {myFunction()};
+
+var t = 0;
+
+function myFunction() {
+	if (document.body.scrollTop > 4000 || document.documentElement.scrollTop > 4000) {
+		if (t == 0) {
+			var elem = document.getElementById("myBar");
+			var elem2 = document.getElementById("myBar2");
+			var elem3 = document.getElementById("myBar3");
+			var elem4 = document.getElementById("myBar4");
+			var elem5 = document.getElementById("myBar5");
+			var elem6 = document.getElementById("myBar6");
+			var width = 1;
+			var id = setInterval(frame, 10);
+			function frame() {
+				if (width >= 100) {
+					clearInterval(id);
+				} else {
+					width++;
+					elem.style.width = width + '%';
+					elem2.style.width = width + '%';
+					elem3.style.width = width + '%';
+					elem4.style.width = width + '%';
+					elem5.style.width = width + '%';
+					elem6.style.width = width + '%';
+				}
+				t = 1;
+			}
+		}
+	}
+}
 </script>
 <script src="js/jquery.counterup.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
