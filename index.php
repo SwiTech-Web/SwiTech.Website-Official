@@ -47,20 +47,45 @@ body, html {
 
 /* Full height image header */
 .bgimg-1 {
-  background-position: center;
-  background-size: cover;
   background-image: url("img/mac.jpg");
   min-height: 100%;
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
+	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.bgimg-2 {
+  background-image: url("img/paris.jpg");
+  min-height: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+@media only screen and (max-device-width: 1366px) {
+  .bgimg-1 {
+    background-attachment: scroll;
+  }
+
+	.bgimg-2 {
+    background-attachment: scroll;
+  }
+
+	.instaf {
+		width: 200px;
+	}
 }
 
 .w3-bar .w3-button {
   padding: 16px;
 }
-
 
 /* The popup form - hidden by default */
 .form-popup {
@@ -151,9 +176,9 @@ body, html {
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">A PROPOS</a>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
-      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i>PRIX</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> EQUIPE</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PROJETS</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i>FORMULES</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
@@ -201,6 +226,22 @@ body, html {
   </div>
 </header>
 
+<div class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Modal title</p>
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+      <!-- Content ... -->
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-success">Save changes</button>
+      <button class="button">Cancel</button>
+    </footer>
+  </div>
+</div>
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
 	<meta name="title" content="A propos de notre société, tout ce que vous devez savoir sur notre manière de fonctionner">
@@ -215,7 +256,7 @@ body, html {
     <div class="w3-quarter">
       <i class="fa fa-check-circle w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Qualité</p>
-      <p>La qualité est pour nous un objetif afin que votre activité professionnelle soit reconnue de tous ! Votre satisfaction est notre but principal et nous mettrons tout en oeuvre pour y parvenir. </p>
+      <p>La qualité est pour nous un objectif afin que votre activité professionnelle soit reconnue de tous ! Votre satisfaction est notre but principal et nous mettrons tout en oeuvre pour y parvenir. </p>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-pencil w3-margin-bottom w3-jumbo"></i>
@@ -232,17 +273,19 @@ body, html {
 	<center>
 		<hr width="50%">
 	</center>
+	<img class="mystick" src="img/stick-run.gif" width="250" height="200"/>
 <!-- Promo Section - "We know design" -->
-<div class="gtco-section" id="work">
+<div class="bgimg-1 gtco-section" id="work">
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Nos Réalisations</h2>
-					<p>Voici un aperçu des travaux réalisés.</p>
+					<h2 style="color:white;">Nos Réalisations</h2>
+					<p style="color:white;">Voici un aperçu des travaux réalisés.</p>
 				</div>
 			</div>
-			<div class="row">
+			<div class="w3-row-padding">
 				<div class="col-lg-4 col-md-4 col-sm-6">
+				<!-- <div class="col-lg-4 col-md-4 col-sm-6"> -->
 					<a href="img/Mika-folio.jpeg" class="fh5co-card-item image-popup">
 						<figure>
 							<div class="overlay"><i class="ti-plus"></i></div>
@@ -289,7 +332,7 @@ body, html {
 						</figure>
 						<div class="fh5co-text">
 							<h2>Association "Pour Ozoir"</h2>
-							<p>Conception du site web de l'association "Pour Ozoir". Une association citoyenne.</p>
+							<p>Conception du site web de l'association citoyenne "Pour Ozoir".</p>
 							<p><span class="btn btn-primary">voir l'aperçu</span></p>
 						</div>
 					</a>
@@ -362,7 +405,7 @@ body, html {
         <div class="w3-container">
           <h3>Jordan LAURENT</h3>
           <p class="w3-opacity">Co-Founder</p>
-          <p>Co-Fondateur de l'agence digitale </br>Switech.</p>
+          <p>Co-Fondateur de l'agence digitale </br>Switech</p>
 					<center><p><button class="w3-button w3-light-grey w3-block" onclick="openForm()"><i class="fa fa-envelope"></i> Contact</button></p></center>
 					<div class="form-popup" id="myForm">
 					  <form role="form" action="push.php" method="post" class="form-container">
@@ -590,8 +633,7 @@ body, html {
 
 	<div class="w3-col l3 m6 w3-margin-bottom">
 		<div class="iframe-container">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10497.18741125175!2d2.69573574674044!3d48.87161728240737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61b14fa1e3b81%3A0x40b82c3688c5720!2s77400+Lagny-sur-Marne!5e0!3m2!1sen!2sfr!4v1548179686125" width="500" height="725" frameborder="0" style="border:0" allowfullscreen></iframe>
-		</div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.94722604053!2d2.2770206638253825!3d48.85883773962137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sen!2sfr!4v1548616796626" width="500" height="750" frameborder="0" style="border:0" allowfullscreen></iframe>		</div>
 	</div>
 
 	<div class="w3-col l2 m2 w3-margin-bottom">
@@ -600,7 +642,7 @@ body, html {
 	<!-- InstaWidget -->
 	<div class="w3-col l3 m6 w3-margin-bottom">
 			<a href="https://instawidget.net/v/user/switechagency" id="link-b5481776805282db148ad7209678d9fe2a8f9863a4d018033479af8adf2d0d70">@switechagency</a>
-			<script src="https://instawidget.net/js/instawidget.js?u=b5481776805282db148ad7209678d9fe2a8f9863a4d018033479af8adf2d0d70&width=500px"></script>
+			<script class="instaf" src="https://instawidget.net/js/instawidget.js?u=b5481776805282db148ad7209678d9fe2a8f9863a4d018033479af8adf2d0d70&width=500px"></script>
 	</div>
 </div>
 
@@ -719,7 +761,7 @@ window.onscroll = function() {myFunction()};
 var t = 0;
 
 function myFunction() {
-	if (document.body.scrollTop > 4000 || document.documentElement.scrollTop > 4000) {
+	if (document.body.scrollTop > 3900 || document.documentElement.scrollTop > 3900) {
 		if (t == 0) {
 			var elem = document.getElementById("myBar");
 			var elem2 = document.getElementById("myBar2");
