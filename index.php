@@ -564,7 +564,7 @@ body, html {
       <ul class="w3-ul w3-white w3-hover-shadow">
         <li class="w3-black w3-xlarge w3-padding-32">Standard</li>
         <li class="w3-padding-16"><b>Package Site Vitrine professionnel / Portfolio / Blog + Référencement + Formation Réseaux Sociaux</b></li>
-        <li class="w3-padding-16"><b>Comptes Réseaux Sociaux, Suivis et optimisation de vos profils</li></b>
+        <li class="w3-padding-16"><b>Comptes Réseaux Sociaux, Suivi et optimisation de vos profils</li></b>
         <li class="w3-padding-16"><b>1 </b>Nom de domaine </li>
         <li class="w3-padding-16"><b>24h/24</b> Support</li>
         <li class="w3-padding-16">
